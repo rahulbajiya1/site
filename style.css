@@ -55,18 +55,19 @@ body {
 }
 .hero {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  text-align: center;
+ align-items: center;
   padding: 60px 40px;
-  background: #fff;
-  flex-wrap: wrap;
-  align-items: center;
+ 
+  background: url('blog3.png') no-repeat center center/cover;
+  
 }
 
 .hero-content {
   flex: 1;
   max-width: 50%;
   align-items:center;
+  text-align: center;
 }
 
 .hero-content h1 {
@@ -124,6 +125,11 @@ body {
   padding: 80px 20px 60px;
   color: white;
   text-align: center;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -196,7 +202,6 @@ body {
   max-height: 40px;
 }
 .atma-section {
-  background-color: #000;
   color: white;
   text-align: center;
   padding: 80px 20px;
@@ -246,10 +251,11 @@ body {
   font-weight: 600;
 }
 .compare-section {
-  background: url('images/background-docs.jpg') no-repeat center center/cover;
+  background: url('blog2.png') no-repeat center center/cover;
   position: relative;
   color: white;
   padding: 80px 20px;
+  border-radius: 45rpm;
 }
 
 .compare-section .overlay {
@@ -340,7 +346,6 @@ body {
 }
 .blog-section {
   padding: 80px 20px;
-  background-color: #000;
   color: #fff;
   text-align: center;
 }
@@ -348,7 +353,7 @@ body {
 .section-title {
   font-size: 32px;
   margin-bottom: 40px;
-  color: #d35400; /* orange title */
+ 
 }
 
 .blog-cards {
@@ -547,7 +552,7 @@ body {
 
 .check-icon {
   background-color: #e85d04;
-  color: #000;
+  color:black;
   font-size: 12px;
   padding: 5px;
   border-radius: 50%;
@@ -570,13 +575,13 @@ body {
 
 .plan-box {
   display: flex;
-  background-color: #000;
-  border: 2px solid #fff;
+  background-color:white;
+  border: 2px solid black;
   border-radius: 10px;
   padding: 20px;
   cursor: pointer;
   position: relative;
-  transition: border 0.3s;
+  transition: border 0.1s;
 }
 
 .plan-box input[type="radio"] {
@@ -891,7 +896,6 @@ body {
 
 /* Hero Section */
 .hero {
-  background-color: #000;
   color: #f97316;
   padding: 4rem 2rem;
   text-align: center;
@@ -903,6 +907,7 @@ body {
 
 /* Content Section */
 .content {
+  background: url('blog3.png') no-repeat center center/cover;
   padding: 3rem 2rem;
   max-width: 1000px;
   margin: auto;
